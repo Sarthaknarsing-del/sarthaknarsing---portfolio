@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sarthak Narsing Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #111;
+            color: white;
+        }
+
+        .container {
+            display: flex;
+            height: 100vh;
+            padding: 50px;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .left {
+            max-width: 50%;
+        }
+
+        .left h1 {
+            font-size: 70px;
+            letter-spacing: 2px;
+        }
+
+        .left p {
+            margin-top: 10px;
+            color: #aaa;
+            font-size: 18px;
+        }
+
+        .right {
+            max-width: 40%;
+            text-align: right;
+        }
+
+        .right p {
+            margin-bottom: 10px;
+            color: #ccc;
+            line-height: 1.6;
+        }
+
+        .btn {
+            margin-top: 20px;
+            display: inline-block;
+            padding: 10px 20px;
+            border: 1px solid white;
+            text-decoration: none;
+            color: white;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background-color: white;
+            color: black;
+        }
+
+        .image-box {
+            position: absolute;
+            bottom: 50px;
+            left: 50px;
+        }
+
+        .image-box img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .left, .right {
+                max-width: 100%;
+            }
+
+            .right {
+                text-align: center;
+                margin-top: 20px;
+            }
+
+            .image-box {
+                position: static;
+                margin-top: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="left">
+            <h1>SARTHAK NARSING</h1>
+            <p>Graphic Designer</p>
+        </div>
+
+        <div class="right">
+            <p>Digital Art / Editorial Illustration</p>
+            <p>Visual Identity / Digital Assets</p>
+            <p>Environmental Design</p>
+
+            <a href="#" class="btn">Work with Me</a>
+        </div>
+    </div>
+
+    <div class="image-box">
+        <!-- Replace this image with your own -->
+        <img src="https://via.placeholder.com/300" alt="Your Photo">
+    </div>
+
+</body>
+</html>

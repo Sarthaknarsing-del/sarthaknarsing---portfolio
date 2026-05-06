@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #071b2f;
+    color: white;
+}
+
+/* Navbar */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #00c6ff;
+}
+
+.cv-btn {
+    background: #ff4da6;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+/* Image */
+.image img {
+    width: 300px;
+    border-radius: 50%;
+    border: 5px solid #00c6ff;
+}
+
+/* Content */
+.content h1 {
+    font-size: 40px;
+}
+
+.content h2 span {
+    color: #00c6ff;
+}
+
+.content p {
+    margin: 15px 0;
+    max-width: 400px;
+}
+
+/* Buttons */
+.buttons button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.hire {
+    background: #00c6ff;
+    color: black;
+}
+
+.contact {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+/* Stats */
+.stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    border-top: 1px solid gray;
+}
+
+.stats div h1 {
+    font-size: 30px;
+    color: #00c6ff;
+}
+.cv-btn {
+    background: #ff4da6;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}

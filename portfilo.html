@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sarthak Narsing | Portfolio</title>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #0e0e0e;
+    color: #fff;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    border-bottom: 1px solid #222;
+}
+
+nav h2 {
+    font-weight: 600;
+}
+
+nav a {
+    color: #aaa;
+    margin-left: 20px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: white;
+}
+
+/* MAIN SECTION */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 60px;
+}
+
+.left {
+    max-width: 50%;
+}
+
+.left h1 {
+    font-size: 64px;
+    line-height: 1.1;
+}
+
+.left span {
+    color: #999;
+    font-weight: 300;
+}
+
+.left p {
+    margin-top: 20px;
+    color: #aaa;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 28px;
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: white;
+    color: black;
+}
+
+/* RIGHT SIDE */
+.right img {
+    width: 320px;
+    border-radius: 12px;
+    filter: grayscale(100%);
+    transition: 0.4s;
+}
+
+.right img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.05);
+}
+
+/* SKILLS */
+.skills {
+    padding: 60px;
+    border-top: 1px solid #222;
+}
+
+.skills p {
+    color: #ccc;
+    margin-bottom: 10px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .left, .right {
+        max-width: 100%;
+    }
+
+    .right {
+        margin-top: 40px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <h2>Sarthak</h2>
+    <div>
+        <a href="#">Home</a>
+        <a href="#">Work</a>
+        <a href="#">Contact</a>
+    </div>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="hero">
+    <div class="left">
+        <h1>Sarthak <br> Narsing</h1>
+        <p><span>Graphic Designer & Creative Developer</span></p>
+        <p>I create modern, minimal and user-focused digital experiences.</p>
+
+        <a href="#" class="btn">Work With Me</a>
+    </div>
+
+    <div class="right">
+        <!-- Replace with your image -->
+        <img src="https://via.placeholder.com/300" alt="Profile Photo">
+    </div>
+</section>
+
+<!-- SKILLS SECTION -->
+<section class="skills">
+    <p>Digital Art / Editorial Illustration</p>
+    <p>Visual Identity / Branding</p>
+    <p>UI/UX Design / Web Design</p>
+</section>
+
+</body>
+</html>
